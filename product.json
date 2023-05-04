@@ -1,0 +1,23 @@
+[
+    {"ProdId" : 1001, "ProdName" : "Chips", "ProdPrice" : 2.99},
+    {"ProdId" : 2001, "ProdName" : "Cookies", "ProdPrice" : 3.50},
+    {"ProdId" : 3001, "ProdName" : "Soda", "ProdPrice" : 4.99},
+    {"ProdId" : 4001, "ProdName" : "Bread", "ProdPrice" : 4.50},
+    {"ProdId" : 5001, "ProdName" : "Ranch", "ProdPrice" : 3.99},
+    {"ProdId" : 6001, "ProdName" : "Sauce", "ProdPrice" : 3.99},
+    {"ProdId" : 7001, "ProdName" : "Fruits", "ProdPrice" : 6.99},
+    {"ProdId" : 8001, "ProdName" : "Sugar", "ProdPrice" : 7.99},
+    {"ProdId" : 9001, "ProdName" : "Coffee", "ProdPrice" : 5.99},
+    {"ProdId" : 1101, "ProdName" : "Milk", "ProdPrice" : 3.99},
+    {"ProdId" : 1201, "ProdName" : "Eggs", "ProdPrice" : 6.99},
+    {"ProdId" : 1301, "ProdName" : "Vegetable", "ProdPrice" : 3.99},
+    {"ProdId" : 1401, "ProdName" : "Cheese", "ProdPrice" : 3.99},
+    {"ProdId" : 1501, "ProdName" : "Butter", "ProdPrice" : 5.99},
+    {"ProdId" : 1601, "ProdName" : "Juice", "ProdPrice" : 3.99},
+    {"ProdId" : 1701, "ProdName" : "Candy", "ProdPrice" : 8.99},
+    {"ProdId" : 1801, "ProdName" : "Flour", "ProdPrice" : 6.99},
+    {"ProdId" : 1901, "ProdName" : "Pasta", "ProdPrice" : 7.99},
+    {"ProdId" : 2001, "ProdName" : "Rice", "ProdPrice" : 10.99},
+    {"ProdId" : 2101, "ProdName" : "Millets", "ProdPrice" : 9.99}
+    
+]
