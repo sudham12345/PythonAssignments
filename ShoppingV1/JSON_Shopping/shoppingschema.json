@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type" : "object",
+    "properties": 
+     {
+        "CustId"      : {"type": "integer"},
+        "CustName"    : {"type": "string"},
+        "CustAddress" : {"type": "string"},
+        "ProductsList": {"type" :"array",
+            "items" : [
+                {"type" : "object",
+                 "properties":
+                  {
+                    "ProdId" : {"type": "integer"},
+                    "Qty    ": {"type": "integer"},
+                    "CustAct": {"type": "string"}
+                    
+                   },
+                "required": [
+                      "ProdId",
+                      "Qty",
+                      "CustAct"
+                   ]  
+                }
+            ]
+        }
+     },
+
+    "required": [ "CustId" ]
+}
+
+   

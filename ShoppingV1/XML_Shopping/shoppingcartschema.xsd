@@ -1,0 +1,21 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Customer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="CustId" type="xs:integer"/>
+                <xs:element name="CustName" type="xs:string"/>
+                <xs:element name="CustAddress" type="xs:string"/>
+                <xs:element name="ProductList" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ProdId" type="xs:integer"/>
+                            <xs:element name="Qty" type="xs:integer"/>
+                            <xs:element name="CustAct" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
