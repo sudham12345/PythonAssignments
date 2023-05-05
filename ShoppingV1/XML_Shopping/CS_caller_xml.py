@@ -8,9 +8,8 @@ from xml.dom import minidom
 
 #Validate the product file
 
-file1='C:\\Sudha\\Python\\Shopping\\XML_Shopping\\productschema.xsd'
-file2='C:\\Sudha\\Python\\Shopping\\XML_Shopping\\product.xml'
-
+file1='XML_Shopping\\productschema.xsd'
+file2='XML_Shopping\\product.xml'
 if xmlvalidator.validate(file1,file2):
     prodfile = file2
 else:
@@ -18,8 +17,8 @@ else:
 
 #Validate the shopping cart file
 
-file1='C:\\Sudha\\Python\\Shopping\\XML_Shopping\\shoppingcartschema.xsd'
-file2='C:\\Sudha\\Python\\Shopping\\XML_Shopping\\shoppingcart.xml'
+file1='XML_Shopping\\shoppingcartschema.xsd'
+file2='XML_Shopping\\shoppingcart.xml'
 
 
 if xmlvalidator.validate(file1,file2):

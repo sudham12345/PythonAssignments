@@ -5,8 +5,8 @@ import jsonshopcart
 
 #Validate the product file
 
-file1='C:\\Sudha\\Python\\Shopping\\JSON_Shopping\\product.json'
-file2='C:\\Sudha\\Python\\Shopping\\JSON_Shopping\\prodschema.json'
+file1='JSON_Shopping\\product.json'
+file2='JSON_Shopping\\prodschema.json'
 
 if jsonvalidator.validate(file1,file2):
     with open (file1) as f:
@@ -17,8 +17,8 @@ else:
 
 #Validate the shopping cart file
 
-file1='C:\\Sudha\\Python\\Shopping\\JSON_Shopping\\shoppingcart.json'
-file2='C:\\Sudha\\Python\\Shopping\\JSON_Shopping\\shoppingschema.json'
+file1='JSON_Shopping\\shoppingcart.json'
+file2='JSON_Shopping\\shoppingschema.json'
 
 if jsonvalidator.validate(file1,file2):
     with open (file1) as f:
