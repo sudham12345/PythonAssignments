@@ -1,9 +1,10 @@
-import xml
+
 from xml.dom import minidom
+    
+def get_prod_price(P_ProdId):
+    
+    from CS_caller_xml import prodfile
 
-def get_prod_price(prodfile,P_ProdId):
-
-  #  xmldoc = minidom.parse('C:\\Sudha\\Python\\Shopping\\product.xml')
     xmldoc = minidom.parse(prodfile)
 
     l_ProductList = xmldoc.getElementsByTagName("ProductList")
