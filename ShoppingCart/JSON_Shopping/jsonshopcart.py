@@ -1,6 +1,6 @@
 import CustShoppingCart
 
-def process_shop_cart(shopcartfile,prodfile):
+def process_shop_cart(shopcartfile):
     
     #Creating a shopping_cart instance imported from CustShoppingCart.py
 
@@ -16,7 +16,7 @@ def process_shop_cart(shopcartfile,prodfile):
     for pl in shopcartfile["ProductsList"]:
         c_cart={}
         c_cart["ProdId"] = pl["ProdId"]
-        c_cart["ProdName"],c_cart["ProdPrice"] = get_prod_price(prodfile,pl["ProdId"])
+        c_cart["ProdName"],c_cart["ProdPrice"] = get_prod_price(pl["ProdId"])
         c_cart["Qty"] = pl["Qty"]
         c_cart["ProdPrice"] *= c_cart["Qty"]
 
@@ -34,7 +34,9 @@ def process_shop_cart(shopcartfile,prodfile):
 
 #Method to fetch product details from Prodfile
 
-def get_prod_price(prodfile,l_ProdId):
+def get_prod_price(l_ProdId):
+
+    from CS_caller_json import prodfile
 
     for pf in prodfile:
         if l_ProdId == pf["ProdId"]:

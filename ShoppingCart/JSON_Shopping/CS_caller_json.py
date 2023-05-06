@@ -29,4 +29,4 @@ else:
 
 # Call the Process_shop_cart method with shopcartfile and prodfile as arguments
 
-jsonshopcart.process_shop_cart(shopcartfile,prodfile)
+jsonshopcart.process_shop_cart(shopcartfile)
